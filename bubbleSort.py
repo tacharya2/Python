@@ -2,7 +2,7 @@ def bubbleSort(nums):
     for i in range(len(nums)-1, 0 , -1):
         for j in range(i):
             if nums[j]>nums[j+1]:
-                # j is index, [j] is jth value
+                # j is index, [j] is jth element
                 temp = nums[j]
                 nums[j] = nums[j+1]
                 nums[j+1] = temp
