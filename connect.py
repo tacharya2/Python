@@ -1,3 +1,7 @@
-a = 14
-b = 3
-print(a-b)
+class student:
+    a,b = 2,23
+    a,b = b,a
+    print(a)
+    print(b)
+    print(a+b)
+s1 = student()
