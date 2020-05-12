@@ -1,4 +1,4 @@
-#search for n and it's position
+# Linear search for n and it's position
 pos = -1
 def search(arr,n):
     i = 0
