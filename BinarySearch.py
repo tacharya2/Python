@@ -14,6 +14,7 @@ def search(array,n):
                 u = mid-1
     return False
 array = [123, 197, 236, 391, 456, 5321, 684, 777, 836, 925, 147, 987]
+# The data is unsorted. How can we sort and use it for binary search?
 n = int(input("Enter a number to search: "))
 if search(array, n):
     print("The number exists at ", pos+1, "position")
