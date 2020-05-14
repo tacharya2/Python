@@ -1,7 +1,7 @@
 # if 123 = 1^3+2^3+3^3, then 123 is an Armstrong number
 # Check if a given 3 digit number is an Armstrong number
 num = int(input("Enter a number: "))
-order = int(input("What's the order of the number?: "))
+order = len(str(num))
 sum = 0
 temp = num
 while temp>0:
