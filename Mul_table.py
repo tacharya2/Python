@@ -1,6 +1,6 @@
-n = int(input("Multiplication table of what number n ?: "))
-m = int(input("Upto what range m ?: "))
+m = int(input("Multiplication table of what number n ?: "))
+n = int(input("Upto what range m ?: "))
 for i in (1, n):
-    for j in range(m+1):
-        print(n," * ", j, " = ", n * j)
+    for j in range(n+1):
+        print(m," * ", j, " = ", m * j)
     break
