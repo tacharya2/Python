@@ -1,4 +1,4 @@
-# make a table of ASCII values of lower-case alphabet
+# make a table of ASCII values of upper and lower-case alphabet
 # fileU.txt = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 # fileL.txt = 'abcdefghijklmnopqrstuvwxyz'
 file = open("fileL.txt")
